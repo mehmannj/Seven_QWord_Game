@@ -23,10 +23,10 @@ import { SelectLevelComponent } from './select-level/select-level.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot([
-      { path: '', component: SelectLevelComponent },
-      { path: 'game', component: GameComponent }
-    ]),
+    RouterModule,//.forRoot([
+    //   { path: '', component: SelectLevelComponent },
+    //   { path: 'game', component: GameComponent }
+    // ]),
     BrowserAnimationsModule,
     AppRoutingModule
   ],
